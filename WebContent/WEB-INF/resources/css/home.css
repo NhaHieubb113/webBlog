@@ -1,0 +1,251 @@
+.chungTren {
+  background: url(imgs/h16.jpg) center;
+  height: 100vh;
+}
+
+.chungTren a, .chungTren p, .chungTren h1 {
+  color: white;
+}
+
+.chungTren .top {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chungTren .top a {
+  margin: 20px;
+  text-decoration: none;
+}
+
+.chungTren .top .gon {
+  width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+}
+
+.chungTren .bot {
+  margin: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 200px;
+}
+
+.chungTren .bot h1 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.chungTren .bot button {
+  cursor: pointer;
+  margin: 50px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chungDuoi .thanhTK {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chungDuoi .thanhTK p {
+  color: black;
+  font-weight: bold;
+}
+
+.chungDuoi .thanhTK input {
+  border: black solid 1px;
+  padding: 10px;
+  width: 750px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.chungDuoi .thanhTK button {
+  cursor: pointer;
+  background: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chungDuoi .thanhTK button:hover {
+  background: #c95757;
+}
+
+.chungDuoi .hinhTravel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.chungDuoi .hinhTravel .trai {
+  width: 60%;
+}
+
+.chungDuoi .hinhTravel .trai .tren {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chungDuoi .hinhTravel .trai .tren h1 {
+  font-size: 30px;
+  margin: 30px;
+}
+
+.chungDuoi .hinhTravel .trai .flex {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.chungDuoi .hinhTravel .trai .flex .gomnua {
+  width: 33%;
+}
+
+.chungDuoi .hinhTravel .trai .flex .gomnua .duoi a {
+  margin: 20px;
+}
+
+.chungDuoi .hinhTravel .trai .flex .gomnua .duoi a img {
+  height: 250px;
+  width: 250px;
+}
+
+.chungDuoi .hinhTravel .trai .flex .gomnua .tieuDe {
+  margin: 20px;
+}
+
+.chungDuoi .hinhTravel .trai .flex .gomnua .tieuDe a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.chungDuoi .hinhTravel .phai {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.chungDuoi .hinhTravel .phai .chung {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid #ccc8c8;
+}
+
+.chungDuoi .hinhTravel .phai .phai_top {
+  border: 2px solid #ccc8c8;
+  height: 15%;
+}
+
+.chungDuoi .hinhTravel .phai .phai_top img {
+  height: 100%;
+  width: 100%;
+}
+
+.chungDuoi .hinhTravel .phai .phai_center {
+  margin: 5px auto;
+  border: 2px solid #ccc8c8;
+}
+
+.chungDuoi .hinhTravel .phai .phai_center .gomnua .duoi a img {
+  height: 100%;
+  width: 100%;
+}
+
+.chungDuoi .hinhTravel .phai .phai_center .gomnua .tieuDe a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.chungDuoi .hinhTravel .phai .phai_bot {
+  border: 2px solid #ccc8c8;
+}
+
+.chungDuoi .hinhTravel .phai .phai_bot img {
+  width: 100%;
+}
+
+.chungDuoi .hinhTravel .phai .phai_bot p {
+  width: 100%;
+}
+
+.cuoiCung {
+  width: 100%;
+  padding: 15px;
+  background-color: #84ffff;
+}
+
+.cuoiCung h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cuoiCung p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 2px;
+  line-height: 15px;
+}
+/*# sourceMappingURL=home.css.map */

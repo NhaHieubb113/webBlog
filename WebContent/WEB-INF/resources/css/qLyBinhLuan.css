@@ -1,0 +1,36 @@
+.chung {
+  text-align: center;
+}
+
+.chung table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1300px;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+.chung table th, .chung table td {
+  width: 1300px;
+  padding: 10px 0;
+  border: 1px solid #333;
+}
+
+.chung table th a, .chung table td a {
+  margin: 0 auto;
+  padding: 5px 15px;
+  background: #705ecf;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.chung table th a:hover, .chung table td a:hover {
+  background: #816ceb;
+}
+/*# sourceMappingURL=qLyBinhLuan.css.map */

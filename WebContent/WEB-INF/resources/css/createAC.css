@@ -1,0 +1,75 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw; 
+  background: url(imgs/h1.jpg);
+  background-blend-mode: darken;
+}
+
+.khungdangnhap {
+  background-color: white;
+  border: #333 solid 2px;
+  width: 800px;
+  height: 650px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.khungdangnhap .phai .picture {
+  text-align: center;
+}
+
+.khungdangnhap .phai .picture img {
+  width: 300px;
+}
+
+.khungdangnhap .trai {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.khungdangnhap .trai form {
+  width: 400px;
+}
+
+.khungdangnhap .trai form h1 {
+  font-size: 30px;
+}
+
+.khungdangnhap .trai form input {
+  margin-bottom: 5px;
+  border: 1px solid #05b993;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
+}
+
+.khungdangnhap .trai form button {
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #3c4ac7;
+  color: #eceaea;
+}
+
+.khungdangnhap .trai form button:hover {
+  background-color: #14194b;
+}
+/*# sourceMappingURL=createAC.css.map */

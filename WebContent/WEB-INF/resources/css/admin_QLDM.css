@@ -1,0 +1,127 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #343363;
+}
+
+.chung {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.chung .left {
+  width: 20%;
+  background-color: white;
+  border: #333 solid 2px;
+  width: 200px;
+  height: 340px;
+  margin: 20px;
+  display: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chung .left li {
+  list-style: none;
+}
+
+.chung .left a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.chung .left a:hover {
+  background-color: #b4e2ee;
+}
+
+.chung .left a .macDinh {
+  background-color: #b4e2ee;
+}
+
+.chung .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chung .right .chung-right {
+  text-align: center;
+  width: 20%;
+  background-color: white;
+  border: #333 solid 2px;
+  width: 1000px;
+  height: 100vh;
+  margin: 20px;
+}
+
+.chung .right .chung-right table {
+  width: 760px;
+  margin: 0 auto;
+  border: 1px solid #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chung .right .chung-right table th, .chung .right .chung-right table td {
+  width: 250px;
+  padding: 10px 0;
+  border: 1px solid #333;
+}
+
+.chung .right .chung-right table th a, .chung .right .chung-right table td a {
+  margin: 10px;
+  background: #705ecf;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.chung .right .chung-right table th a:hover, .chung .right .chung-right table td a:hover {
+  background: #816ceb;
+}
+
+.chung .right .chung-right button {
+  margin: 10px;
+  background: #705ecf;
+  border-radius: 5px;
+  padding: 7px 15px;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.chung .right .chung-right button:hover {
+  background: #816ceb;
+}
+
+.chung .right .chung-right form {
+  margin: 20px;
+}
+
+.chung .right .chung-right form input {
+  letter-spacing: 2px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background: #fff;
+  color: #51585f;
+  border: 1px solid #05b993;
+  -webkit-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+          box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+  border-radius: 5px;
+}
+/*# sourceMappingURL=admin_QLDM.css.map */

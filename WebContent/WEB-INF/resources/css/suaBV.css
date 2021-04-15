@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #343363;
+}
+
+.chung {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border: #333 solid 2px;
+  width: 1000px;
+  margin-left: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chung form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+  width: 500px;
+}
+
+.chung form h1 {
+  text-align: center;
+  margin: 30px;
+}
+
+.chung form input {
+  margin: 10px 0;
+  width: 450px;
+  border: none;
+  padding: 16px;
+  letter-spacing: 2px;
+  background: #fff;
+  color: #51585f;
+  border: 1px solid #05b993;
+  -webkit-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+          box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+  border-radius: 5px;
+}
+
+.chung form button {
+  margin: 20px;
+  background: #705ecf;
+  font-size: 15px;
+  padding: 16px 80px;
+  margin-left: -5px;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.chung form button:hover {
+  background: #816ceb;
+}
+/*# sourceMappingURL=suaBV.css.map */
